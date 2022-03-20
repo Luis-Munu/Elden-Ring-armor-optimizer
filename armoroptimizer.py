@@ -1,5 +1,4 @@
 import pandas as pd
-from IPython.display import display
 
 # Loads the Excel file.
 xls = pd.ExcelFile("armors.xlsx")
