@@ -1,8 +1,4 @@
 # Elden-Ring-armor-optimizer
-Pretty bland script that will retrieve the best possible armor combination for your character given a maximum weight for it and the stat to maximize.
+Small script that will retrieve the best possible armor combination in Elden Ring allowing you to maximize your desired attribute. Blazingly fast. Updated before the DLC.
 
-Take into account that the weight that must be used as input is the one that the armor will use, so remove your weapon weight and cap it to 70% of your maximum weight if you want to medium roll.
-
-It takes about 15 minutes to get the best possible armor due to the high amount of possible combinations.
-
-The armor table is an edited version of the Fextralife one, with empty values removed.
+Requires the PuLP library to be used: ```pip install -r requirements.txt``` after that simply run ```python main.py```
