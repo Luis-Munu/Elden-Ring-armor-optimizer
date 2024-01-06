@@ -31,7 +31,10 @@ def get_user_selected_attribute(armor_attributes):
     Get the attribute selected by the user from the list of armor attributes.
     """
     print("Select a parameter to maximize:")
-    for i, attribute in enumerate(armor_attributes, start=1):
-        print(f"{i}. {attribute}")
+    for i in range(0, len(armor_attributes), 4):
+        attributes_to_print = armor_attributes[i : i + 4]
+        for j, attribute in enumerate(attributes_to_print, start=i + 1):
+            print(f"{j}. {attribute}", end=" ")
+        print()
     selected_index = int(input("Enter the number of the parameter: ")) - 1
     return armor_attributes[selected_index]

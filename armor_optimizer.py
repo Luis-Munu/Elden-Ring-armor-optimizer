@@ -5,7 +5,7 @@ NAME = "Name"
 RATIO = "Ratio"
 WEIGHT = "Weight"
 EXCLUDED_KEYS = [NAME, RATIO, WEIGHT]
-ARMOR_ORDER = ["Hats", "Chests", "Gauntlets", "Pants"]
+ARMOR_ORDER = ["Helmet", "Chest", "Gauntlet", "Pants"]
 
 
 class ArmorOptimizer:
