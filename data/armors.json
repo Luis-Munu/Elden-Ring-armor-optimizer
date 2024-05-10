@@ -1,5 +1,5 @@
 {
-"Hats":[
+"Helmet":[
  {
   "Name": "aristocrat headband",
   "Physical": 1.9,
@@ -3071,7 +3071,7 @@
   "Ratio": 1.1372549019607843
  }
 ],
-"Chests":[
+"Chest":[
  {
   "Name": "goldmasks rags",
   "Physical": 4.2,
@@ -6949,7 +6949,7 @@
   "Special Effect": "Slowly replenishes the HP of nearby allies, but not that of the wearer,"
  }
 ],
-"Gauntlets":[
+"Gauntlet":[
  {
   "Name": "gold bracelets",
   "Physical": 1,
@@ -8646,7 +8646,7 @@
   "Ratio": 0.5357142857142857
  }
 ],
-"Pants":[
+"Pant":[
  {
   "Name": "old aristocrat shoes ",
   "Physical": 3.4,
